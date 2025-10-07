@@ -1,0 +1,73 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Hobbies and Interrests</title>
+<style>
+  : root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#94a3b8; --accent:#22d3ee; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui, Segoe UI, Roboto, Sans-serif}
+  .wrap{max-width:900px;margin:auto;padding:28px}
+  header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  h1{margin:0 0 8px} a{color:var(--accent);text-decoration:none}
+  .card{background:var(--card);border:1px solid #1f2937; border-radius:14px; padding: 20px;margin-top:18px}
+  .badge{display:inline-block;border:1px solid #1f2937;border-radius:999px;padding:6px 12px;margin:6px 6px 0 0;color:#cbd5e1}
+  img{max-width:100%;border-radius:12px;border:1px solid #1f2937}
+  footer{margin-top:28px;color:var(--muted);font-size:.95rem}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Hi, I'm Andrew Park</h1>
+      <nav>
+        <a href="#hobbies">Hobbies</a> ·
+        <a href="#gallery">Gallery</a> ·
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="card">
+      <h2>About This Site</h2>
+      <p> This website is going to share a few of my favorite hobbies and why I enjoy each hobby.</p>
+      <div>
+        <span class="badge">Basketball</span>
+        <span class="badge">Rock Climbing</span>
+        <span class="badge">Gaming</span>
+        <span class="badge">Eating</span>
+      </div>
+    </section>
+
+    <section id="hobbies" class="card">
+      <h2>Hobbies</h2>
+      <h3>Basketball</h3>
+      <p> I like the intesity that this sport is played at and it allows me to get in the cardio I need daily to be healthy.</p>
+      <h3>Rock Climbing</h3>
+      <p>This indoor sports allows me to test my limits and stretch out my body other sports can not normally do.</p>
+      <h3>Gaming</h3>
+      <p>Gaming is something to do to help me relax and have a good time talking to my friends.</p>
+      <h3>Eating</h3>
+      <p>Eating is a hobby for me because the meals I eat help me become energetic and a good meal always puts me in a good mood.</p>
+    </section>
+
+    <section id="gallary" class="card">
+      <h2>Gallary</h2>
+      <h3>Basketball</h3>
+  <img src="basketball.jpg" alt="Playing basketball on a court">
+
+  <h3>Rock Climbing</h3>
+  <img src="climbing.jpg" alt="Climbing on a rock wall">
+
+  <h3>Gaming</h3>
+  <img src="gaming.jpg" alt="Gaming setup with controller and monitor">
+
+  <h3>Eating</h3>
+  <img src="food.jpg" alt="Plate of food from my favorite restaurant">
+</section>
+      
+<section id="contact" class="card">
+  <h2>Contact</h2>
+  <p>Email:<a href = "mailto:appark@tamu.edu">appark@tamu.edu</p>
+</section>
+  </body>
+</html>
